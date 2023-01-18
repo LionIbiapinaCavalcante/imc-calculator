@@ -31,14 +31,14 @@ function App() {
       <div className="area-input">
         <input
           type="text"
-          placeholder="Peso em (kg) Ex: 87"
+          placeholder="Peso em (kg) Ex: 80"
           value={weight}
           onChange={(e) => setWeight(e.target.value)}
         />
 
         <input
           type="text"
-          placeholder="Altura em (cm) Ex: 182"
+          placeholder="Altura em (cm) Ex: 180"
           value={height}
           onChange={(e) => setHeight(e.target.value)}
         />
